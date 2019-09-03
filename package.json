@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-zoro",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "umi plugin for zoro",
   "main": "lib/index.js",
   "author": "FaureWu<502556093@qq.com>",
@@ -10,7 +10,6 @@
     "release": "npm run build && npm publish --access=public"
   },
   "dependencies": {
-    "@opcjs/zoro": "^2.3.6",
     "assert": "^1.4.1",
     "globby": "^9.2.0",
     "lodash.uniq": "^4.5.0",

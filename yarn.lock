@@ -713,10 +713,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@opcjs/zoro@^2.3.6":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@opcjs/zoro/-/zoro-2.3.6.tgz#19400e8280b959cbd0d6e55660f9e98e89129796"
-  integrity sha512-9zChA2cGKCHqupVthGKwp1fE8k9laeTB2uZCJYDnyP2/t131whkhgqb1AabBRh/FaEzHu1A/T2+6qp31CzAAsQ==
+"@opcjs/zoro@^2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@opcjs/zoro/-/zoro-2.3.7.tgz#9ac1be3a0444e9be578344e395b5579c8645e1e2"
+  integrity sha512-pgHzimiXRf5QmxS0QUtoGlJzNhp7sLbBeG2tfLFSwEr7MyOL3Y3EMP+mlHdASG+AblYbTnHQjscDw4FKpe/xzg==
   dependencies:
     redux "^4.0.0"
     regenerator-runtime "^0.12.1"

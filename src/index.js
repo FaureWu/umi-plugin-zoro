@@ -70,15 +70,11 @@ export function getGlobalModels(api, shouldImportDynamic) {
 }
 
 export default function(api, opts = {}) {
-  const { paths, cwd, compatDirname, winPath } = api;
+  const { paths, cwd, winPath } = api;
   const isDev = process.env.NODE_ENV === "development";
   const shouldImportDynamic = opts.dynamicImport;
 
-  const zoroDir = compatDirname(
-    "@opcjs/zoro/package.json",
-    cwd,
-    dirname(require.resolve("@opcjs/zoro/package.json"))
-  );
+  var zoroDir = `${cwd}/node_modules/@opcjs/zoro`
   const zoroVersion = require(join(zoroDir, "package.json")).version;
 
   function getModelName(model) {
